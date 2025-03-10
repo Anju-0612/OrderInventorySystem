@@ -5,7 +5,7 @@ This is a .NET Core Web API (or console application) for managing orders and inv
 
 ## Setup Instructions
 1. **Clone the Repository**:
-   - Run `git clone <your-github-link>` in your terminal (replace with your GitHub URL).
+   - Run `git clone (https://github.com/Anju-0612/OrderInventorySystem.git) in your terminal (replace with your GitHub URL).
 2. **Restore Dependencies**:
    - Navigate to the project folder: `cd OrderInventorySystem`.
    - Run `dotnet restore` to install NuGet packages (e.g., xUnit, Moq).
@@ -15,7 +15,7 @@ This is a .NET Core Web API (or console application) for managing orders and inv
    - Run `dotnet test` to execute all 6 unit tests.
 5. **Run the Application** (if Web API):
    - Run `dotnet run` from the main project directory to start the API.
-   - Access Swagger UI (if implemented) at `http://localhost:<port>/swagger`.
+   - Access Swagger UI (if implemented) at `http://localhost:7101/swagger`.
 
 ## Key Design Decisions
 - **SOLID Principles**: Followed Single Responsibility (e.g., `OrderService` for business logic, `IProductRepository` for data access) and Dependency Inversion (via interfaces like `INotificationService`).
